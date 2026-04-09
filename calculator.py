@@ -3,7 +3,7 @@ import math
 def add(a, b):
     return a + b
 
-def substract(a, b):
+def subtract(a, b):
     return a - b
 
 def multiply(a, b):
@@ -28,8 +28,6 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def sub(a, b):
-    return a - b
 
 def mul(a, b):
    return  a * b
