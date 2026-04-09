@@ -4,8 +4,38 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
-def add(a, b): 
-    pass
+git clone <repository link>
+cd <repository_folder>
+
+
+import math
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if a==0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return b / a   # raise ZeroDivisionError if a == 0
+
+def logarithm(a, b):
+   if a <= 0 or a == 1 or b <= 0:
+        raise ValueError("Invalid input for logarithm")
+    return math.log(b, a)
+
+def exponent(a, b):
+    return ab
+
+git add calculator.py
+git commit -m "modified calculator p1"
+git push
+
+
 
 
