@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 import math
 
 def add(a, b):
@@ -11,11 +9,6 @@ def substract(a, b):
 def multiply(a, b):
     return a * b
 
-def divide(a, b):
-    if a==0:
-        raise ZeroDivisionError("Cannot divide by zero")
-    return b / a   # raise ZeroDivisionError if a == 0
-
 def logarithm(a, b):
    if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid input for logarithm")
@@ -23,11 +16,6 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a**b
-
-
-
-=======
-import math
 
 def square_root(a):
     if a < 0:
@@ -39,7 +27,6 @@ def hypotenuse(a, b):
 
 def add(a, b):
     return a + b
->>>>>>> 0ed8e8d298004ffa30016f3e85951ea54d7027e2
 
 def sub(a, b):
     return a - b
