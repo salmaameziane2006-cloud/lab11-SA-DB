@@ -1,12 +1,3 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-git clone <repository link>
-cd <repository_folder>
-
 
 import math
 
@@ -30,7 +21,7 @@ def logarithm(a, b):
     return math.log(b, a)
 
 def exponent(a, b):
-    return ab
+    return a**b
 
 
 
